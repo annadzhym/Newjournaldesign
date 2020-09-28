@@ -25,7 +25,7 @@
 	<link rel="stylesheet" href="css\responsive.css">
 	<script src="js\vendor\modernizr-2.8.3-respond-1.4.2.min.js"></script>
 </head>
-<body>
+<body class="sj-home">
 	<!--[if lt IE 8]>
 		<p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
 	<![endif]-->
@@ -68,15 +68,15 @@
 											</button>
 											<div class="collapse navbar-collapse sj-navigation" id="navbarNav">
 												<ul>
-													<li>
+													<li class=" current-menu-item">
 														<a href="index.html"><i class="lnr lnr-home"></i></a>
 													</li>
 													<li>
 														<a href="aboutus.html">О компании</a>
 													</li>
-													<li class="menu-item-has-children page_item_has_children ">
-														<span class="sj-tagnew">New</span>
-														<a href="services.html">Услуги</a>
+													<li class="menu-item-has-children page_item_has_children current-menu-item">
+                                                        <span class="sj-tagnew">New</span>
+                                                        <a href="services.html">Услуги</a>
 														<ul class="sub-menu">
 															<li><a href="service-item.html">Название услуги</a></li>
 														</ul>
@@ -124,53 +124,139 @@
 					</div>
 				</div>
 			</header>
-
 			<!--************************************
 					Header End
 			*************************************-->
-			<!--************************************
-					Inner Banner Start
-			*************************************-->
-			<div class="sj-innerbanner">
-				<div class="container">
-					<div class="row">
-						<div class="col-12 col-sm-12 col-md-12 col-lg-12">
-							<div class="sj-innerbannercontent">
-								<h1>404</h1>
-								<ol class="sj-breadcrumb">
-									<li><a href="index.html">Главная</a></li>
-									<li><a href="javascript:void(0);">404</a></li>
-								</ol>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-			<!--************************************
-					Inner Banner End
-			*************************************-->
+            <div class="sj-innerbanner">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 col-sm-12 col-md-12 col-lg-12">
+                            <div class="sj-innerbannercontent">
+                                <h1>Услуги</h1>
+                                <ol class="sj-breadcrumb">
+                                    <li><a href="index.html">Главная</a></li>
+                                    <li><a href="javascript:void(0);">Услуги</a></li>
+                                </ol>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
 			<!--************************************
 					Main Start
 			*************************************-->
 			<main id="sj-main" class="sj-main sj-haslayout sj-sectionspace">
-				<div class="sj-404error">
+				<div id="sj-twocolumns" class="sj-twocolumns">
 					<div class="container">
 						<div class="row">
-							<div class="col-12 col-sm-12 offset-sm-0 col-md-8 offset-md-2 col-lg-8 offset-lg-2">
-								<div class="sj-404content">
-									<div class="sj-404head">
-										<h2>404</h2>
-										<h3>Страница не найдена :(</h3>
-									</div>
-									<div class="sj-description">
-										<p>
-											К сожалению, эта страница не существует или находится по другому адресу. Воспользуйтесь поиском или вернитесь на главную
-										</p>
-									</div>
-									<span class="sj-gobackhome">
-										<a href="index.html">Перейти на главную</a>
-									</span>
-								</div>
+							<div class="col-12 col-sm-12 col-md-12 col-lg-12">
+								<div id="sj-content" class="sj-content">
+                                    <div class="row">
+                                        <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-4">
+                                            <div class="sj-newsarticle">
+                                                <figure class="sj-newsimg">
+                                                    <img src="images/news/img-07.jpg" alt="image description">
+                                                </figure>
+                                                <div class="sj-newscontent">
+                                                    <div class="sj-newshead">
+                                                        <h3>
+                                                            <a href="javascript:void(0);">Moving Toward Better-Quality Compounded Drugs</a>
+                                                        </h3>
+                                                    </div>
+                                                    <div class="sj-description">
+                                                        <a href="javascript:void(0);">Подробнее</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-4">
+                                            <div class="sj-newsarticle">
+                                                <figure class="sj-newsimg">
+                                                    <img src="images/news/img-07.jpg" alt="image description">
+                                                </figure>
+                                                <div class="sj-newscontent">
+                                                    <div class="sj-newshead">
+                                                        <h3>
+                                                            <a href="javascript:void(0);">Moving Toward Better-Quality Compounded Drugs</a>
+                                                        </h3>
+                                                    </div>
+                                                    <div class="sj-description">
+                                                        <a href="javascript:void(0);">Подробнее</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-4">
+                                            <div class="sj-newsarticle">
+                                                <figure class="sj-newsimg">
+                                                    <img src="images/news/img-07.jpg" alt="image description">
+                                                </figure>
+                                                <div class="sj-newscontent">
+                                                    <div class="sj-newshead">
+                                                        <h3>
+                                                            <a href="javascript:void(0);">Moving Toward Better-Quality Compounded Drugs</a>
+                                                        </h3>
+                                                    </div>
+                                                    <div class="sj-description">
+                                                        <a href="javascript:void(0);">Подробнее</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-4">
+                                            <div class="sj-newsarticle">
+                                                <figure class="sj-newsimg">
+                                                    <img src="images/news/img-07.jpg" alt="image description">
+                                                </figure>
+                                                <div class="sj-newscontent">
+                                                    <div class="sj-newshead">
+                                                        <h3>
+                                                            <a href="javascript:void(0);">Moving Toward Better-Quality Compounded Drugs</a>
+                                                        </h3>
+                                                    </div>
+                                                    <div class="sj-description">
+                                                        <a href="javascript:void(0);">Подробнее</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-4">
+                                            <div class="sj-newsarticle">
+                                                <figure class="sj-newsimg">
+                                                    <img src="images/news/img-07.jpg" alt="image description">
+                                                </figure>
+                                                <div class="sj-newscontent">
+                                                    <div class="sj-newshead">
+                                                        <h3>
+                                                            <a href="javascript:void(0);">Moving Toward Better-Quality Compounded Drugs</a>
+                                                        </h3>
+                                                    </div>
+                                                    <div class="sj-description">
+                                                        <a href="javascript:void(0);">Подробнее</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-4">
+                                            <div class="sj-newsarticle">
+                                                <figure class="sj-newsimg">
+                                                    <img src="images/news/img-07.jpg" alt="image description">
+                                                </figure>
+                                                <div class="sj-newscontent">
+                                                    <div class="sj-newshead">
+                                                        <h3>
+                                                            <a href="javascript:void(0);">Moving Toward Better-Quality Compounded Drugs</a>
+                                                        </h3>
+                                                    </div>
+                                                    <div class="sj-description">
+                                                        <a href="javascript:void(0);">Подробнее</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
 							</div>
 						</div>
 					</div>

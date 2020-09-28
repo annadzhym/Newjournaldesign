@@ -4,6 +4,9 @@
 /*=============================================
 			Theme Text Color
 =============================================*/
+.sj-widgetimpactfector .sj-widgetcontent div a {
+    color: #000000;
+}
 a,
 p a,
 p a:hover,
@@ -17,7 +20,9 @@ a:active,
 .sj-upcomingbook:hover .sj-postcontent h3 a,
 .sj-widgetcontent ul li:hover a,
 .sj-widgetcontent ul li.sj-more a,
-.sj-widgetimpactfector .sj-widgetcontent ul li h3 span,
+.sj-widgetimpactfector .sj-widgetcontent h3 span,
+.sj-widgetimpactfector .sj-widgetcontent div i,
+.sj-widgetimpactfector .sj-widgetcontent div a:hover,
 .sj-radio input[type=radio]+ label:hover:before,
 .sj-radio input[type=radio]:checked + label:before,
 .sj-radio input[type=radio]+ label:hover,
@@ -41,13 +46,14 @@ a:active,
 .sj-pagination ul li:hover a,
 .sj-pagination ul li.sj-active a,
 .sj-mailinfo,
+.fa,
 .sj-formaddnewfield .form-group .sj-radio input[type=radio] + label:before,
 .sj-formaddnewfield .form-group .sj-checkbox input[type=checkbox] + label:before
 
-{ color: #007c2f; }
+{ color: #fd7908; }
 .sj-assignedinfo
-{ color: #007c2f !important;}
-.sj-viewchart .ct-bar:hover {stroke: #007c2f;}
+{ color: #fd7908 !important;}
+.sj-viewchart .ct-bar:hover {stroke: #fd7908;}
 /*=============================================
 			Theme Background Color
 =============================================*/
@@ -74,7 +80,7 @@ a:active,
 .sj-formaddnewfield .form-group .sj-checkbox input[type=checkbox] + label:after,
 .chosen-container .chosen-results li.highlighted
 
-{ background:#007c2f;}
+{ background:#fd7908;}
 /*=============================================
 			Theme Border Color
 =============================================*/
@@ -89,5 +95,5 @@ input:focus,
 .children,
 .sj-tagnew:before
 
-{ border-color: #007c2f; }
+{ border-color: #fd7908; }
 /*#5e9cea*/
